@@ -1,0 +1,32 @@
+{
+  "name": "30.03.24-full.server",
+  "version": "1.0.0",
+  "description": "node js full rest api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --watch *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robamoadi/30.03.24-full.server.git"
+  },
+  "author": "roba moadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robamoadi/30.03.24-full.server/issues"
+  },
+  "homepage": "https://github.com/robamoadi/30.03.24-full.server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^5.1.0",
+    "config": "^3.3.11",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "mocha": "^10.4.0",
+    "pg": "^8.11.3",
+    "should": "^13.2.3",
+    "winston": "^3.13.0"
+  }
+}
